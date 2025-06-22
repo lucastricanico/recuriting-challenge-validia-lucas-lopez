@@ -1,0 +1,18 @@
+# Lucas Lopez - Required Imports File
+# 06/21/2025
+
+# Core web framework
+fastapi # Main API framework
+
+# ASGI server for running FastAPI
+uvicorn # Development server with hot reload support
+
+# Image handling
+pillow  # For loading and manipulating image files
+
+# Image processing and facial analysis
+opencv-contrib-python  # OpenCV + extra modules (used by Mediapipe)
+mediapipe  # Google's facial landmark detection model
+
+# Array and math operations
+numpy  # For calculations and feature comparisons
